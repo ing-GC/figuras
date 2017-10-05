@@ -6,7 +6,7 @@ install:
 before_script: 
  - autopep8 -ir *
 script: 
- - cd ../pruebas_unitarias
+ - cd pruebas_unitarias
  - python TestArea.py
  - coverage run TestArea.py
  - coverage html
